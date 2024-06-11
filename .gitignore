@@ -1,0 +1,25 @@
+
+*.jpg
+*.jpeg
+*.png
+*.csv
+*.zip
+.ipynb_checkpoints/DataAnalysis-checkpoint.ipynb
+.ipynb_checkpoints/merge_all_datasets-checkpoint.ipynb
+.ipynb_checkpoints/pipeline-checkpoint.ipynb
+.ipynb_checkpoints/Random Forest-checkpoint.ipynb
+.ipynb_checkpoints/url processing-checkpoint.ipynb
+.ipynb_checkpoints/url-preprocessing-checkpoint.ipynb
+*.txt
+*.html
+*.tsv
+*.json
+*.gif
+*.db
+.ipynb_checkpoints/MobileNet-checkpoint.ipynb
+.ipynb_checkpoints/moving_files-checkpoint.ipynb
+.ipynb_checkpoints/Scraper-checkpoint.ipynb
+*.db-journal
+*.jpg
+*.jpg
+*.csv
