@@ -1,5 +1,6 @@
 # დAIცავი(dAIcavi)
-An AI-powered parental control system that runs on your device, ensuring children's safety and privacy with help of our mascot: Aurora!.
+An AI-powered parental control system that runs on your device, ensuring children's safety and privacy with help of our mascot: Aurora!
+
 Developed by [Barbare Gogadze](https://github.com/barbarehh), [Tamar Kobaladze](https://github.com/kobaladzet) and Me, Saba Guledani.
 
 ---
