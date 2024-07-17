@@ -3,6 +3,7 @@ An AI-powered parental control system that runs on your device, ensuring childre
 Developed by [Barbare Gogadze](https://github.com/barbarehh), [Tamar Kobaladze](https://github.com/kobaladzet) and Me, Saba Guledani.
 
 ---
+![Picture2](https://github.com/user-attachments/assets/200a4184-fd72-405b-b40c-6c77a423d385)
 
 ## Introduction
 
