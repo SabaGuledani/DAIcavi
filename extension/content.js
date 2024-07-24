@@ -5,7 +5,7 @@ const our_img = "https://scontent.ftbs4-2.fna.fbcdn.net/v/t1.15752-9/448246218_9
 const blur = "https://scontent.ftbs5-2.fna.fbcdn.net/v/t1.15752-9/448555961_950446383546582_2624276174024852565_n.png?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEfpNCdQixYhbhdIDg41gWdla3FhJWJrLuVrcWElYmsu3Il_fqoLVoVS6kwUcuIlqOOp_V2BN4ELAHthuom4DFh&_nc_ohc=yTkQWc_eOv0Q7kNvgGwkmwY&_nc_ht=scontent.ftbs5-2.fna&oh=03_Q7cD1QF7xTl_K2YjOhLtAkV3Ta6pPBhPUNeLy_Qz7lfo9gt3mQ&oe=669FCA92";
 
 // function to check if image is kid friendly
-function checkImageContentjs(data, img, originalSrc){
+function checkImageContentjs(data, originalSrc){
 
   if (data[originalSrc]) {
           
@@ -13,9 +13,6 @@ function checkImageContentjs(data, img, originalSrc){
       return  our_img; // If the src is already evaluated and marked as porn, hide the image
     }
   } else {
-         
-    
-
     // Send a message to background.js to check if the original image is kid-friendly
     chrome.runtime.sendMessage({ action: 'checkImage', src: originalSrc }, (response) => {
         
@@ -55,7 +52,7 @@ function replaceImages() {
         
         img.style.display = blur // Set image source to a placeholder (or empty string) initially
 
-        img.src = checkImageContentjs(data, img, originalSrc);
+        img.src = checkImageContentjs(data, originalSrc);
         
         
 
